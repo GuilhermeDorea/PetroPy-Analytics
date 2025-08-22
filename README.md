@@ -37,8 +37,8 @@ Follow the steps below to run the project on your local machine.
 ### Step-by-Step
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/GuilhermeDorea/BrasilGasAPI.git](https://github.com/GuilhermeDorea/BrasilGasAPI.git)
-    cd BrasilGasAPI
+    git clone [https://github.com/GuilhermeDorea/PetroPy-Analytics.git](https://github.com/GuilhermeDorea/PetroPy-Analytics.git)
+    cd PetroPy-Analytics
     ```
 
 2.  **Create and activate the virtual environment:**
