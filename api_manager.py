@@ -22,7 +22,7 @@ class Station(db.Model):
     gas = db.Column(db.Float, nullable=False)
     addgas = db.Column(db.Float, nullable=False)
     cng = db.Column(db.Float, nullable=False)
-    
+
     def __repr__(self):
         return f'<Produto {self.nome}>'
     

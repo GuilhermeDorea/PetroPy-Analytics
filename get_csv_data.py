@@ -5,8 +5,8 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # 1 - CSV reading and formating
-df = pd.read_csv(
-    'data/Preços semestrais - AUTOMOTIVOS_2025_01.csv', encoding='latin-1', sep=';')
+CSV_FILE = 'Preços semestrais - AUTOMOTIVOS_2025_01.csv'
+df = pd.read_csv(f'data/{CSV_FILE}', encoding='latin-1', sep=';')
 
 df.rename(columns={
     'ï»¿Regiao - Sigla': 'regions',
